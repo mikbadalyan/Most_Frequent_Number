@@ -71,7 +71,12 @@ int print_tree(struct Node** root){
     return 0;
 }
 
-
+/**
+ * @brief This function find the most frequent number in a file.
+ * 
+ * @param most_n is the most frequent number
+ * @return int is retruning 0 if the code work properly and -1 otherwise.
+ */
 int most_frequent_number(int most_n){
     if(most_num != -1){
         most_n = most_num;

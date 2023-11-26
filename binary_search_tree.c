@@ -14,13 +14,7 @@ struct Node {
 int most = 1;
 int most_num = -1;
 
-/**
- * @brief This function inserts the number in binary search tree, counts the qunatity of numbers.
- * 
- * @param root is a parent of left and right childs or sometimes it is a child. 
- * @param value is the value of the parent.
- * @return int it returns 0 if the code work properly.
- */
+
 int insert(struct Node** root, int value){
     if (0 == *root){
         *root = malloc(sizeof(struct Node));
